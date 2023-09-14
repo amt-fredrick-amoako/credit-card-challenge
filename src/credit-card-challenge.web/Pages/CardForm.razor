@@ -1,0 +1,21 @@
+@typeparam TType
+@using CreditCardChallenge
+@using CreditCardChallenge.web.Model
+
+@CardVisual
+
+<EditForm Model="@CardDetails">
+    <InputText bind-Value="@CardDetails.CardNumber"></InputText>
+    <InputText bind-Value="@CardDetails.CardName"></InputText>
+    <InputText bind-Value="@CardDetails.Month.ToString()"></InputText>
+    <InputText bind-Value="@CardDetails.Year.ToString()"></InputText>
+    <InputText bind-Value="@CardDetails.Cvv.ToString()"></InputText>
+</EditForm>
+
+@code {
+    [Parameter]
+    public RenderFragment CardVisual { get; set; }
+    
+    [Parameter]
+    public CardDetails CardDetails { get; set; }
+}

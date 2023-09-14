@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CBCC6FBB-8322-4AA7-9369-55180144FC34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "credit-card-challenge.web", "src\credit-card-challenge.web\credit-card-challenge.web.csproj", "{59A3AD40-D8A5-4C32-B519-2F7BA7AE61D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "credit-card-challenge.web", "src\credit-card-challenge.web\credit-card-challenge.web.csproj", "{59A3AD40-D8A5-4C32-B519-2F7BA7AE61D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

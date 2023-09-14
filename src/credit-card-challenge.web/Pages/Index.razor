@@ -1,9 +1,15 @@
 ﻿@page "/"
+@using credit_card_challenge.web.Components
+@using CreditCardChallenge.web.Model
 
-<PageTitle>Index</PageTitle>
+<CardForm TType="bool" CardDetails="CardDetails">
+    <CardVisual>
+        <CardComponent CardName="Discover"/>
+    </CardVisual>
 
-<h1>Hello, world!</h1>
 
-Welcome to your new app.
+</CardForm>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+@code{
+    public CardDetails CardDetails { get; set; }
+}
